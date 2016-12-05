@@ -18,7 +18,8 @@ alt = False
 shift = False
 state = 0  # aka 0.1, default/start-up scene setting
 
-import bpy
+import bpy      #Download blender https://www.blender.org/download/
+                #Problem is there http://stackoverflow.com/questions/26628525/importerror-no-module-named-bpy
 
 
 class ClippingToggle(bpy.types.Operator):
